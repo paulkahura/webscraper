@@ -1,7 +1,9 @@
+#import requests as usual
 import requests
+#for formatting the json data the website will send back import beautiful soup
 from bs4 import BeautifulSoup
 URL = 'https://www.amazon.com/Acer-Predator-i7-9750H-Keyboard-PH315-52-78VL/dp/B07QXLFLXT/ref=sr_1_8?fst=as%3Aoff&pf_rd_i=16225007011&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=74069509-93ef-4a3c-8dca-a9e3fa773a64&pf_rd_r=X0ZT45ECF7AJWZ1YQ7GG&pf_rd_s=merchandised-search-4&pf_rd_t=101&qid=1564486449&rnid=16225007011&s=computers-intl-ship&sr=1-8'
-
+#i am trying to make a webscraping python program to alert me when a product on an online shopp falls below a certain price 
 
 
 headers = {"User-Agent":'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'}
